@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    height: 100vh;
+
+    background-color: #000058;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+    width: 400px;
+    height: 600px;
+
+    background-color: #000058;
+}
+
+.img-logo img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    margin-bottom: 3rem;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: white;
+
+    font-family: "Inter", system-ui;
+}
+
+form input {
+    border: none;
+    background-color: rgb(53, 25, 121);
+    padding: 20px;
+
+    margin-top: 1rem;
+    outline: none;
+    border-radius: 20px;
+
+    width: 250px;
+}
+
+form input::placeholder {
+    color: white;
+}
+
+form input:placeholder-shown {
+    color: white;
+}
+
+aside {
+    margin: 5px;
+    text-align: start;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    color: white;
+    font-size: 0.90rem;
+
+    font-family: "Inter", system-ui;
+}
+
+aside span a {
+    color: lime;
+    cursor: pointer;
+
+    font-family: "Inter", system-ui;
+}
+
+form .submit {
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    padding: .80rem;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+
+    background-color: green;
+}
+
+form .submit a {
+    color: white;
+}
+
+form .submit:hover {
+    background: rgb(0, 156, 0);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
