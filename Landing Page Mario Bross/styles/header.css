@@ -1,0 +1,62 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+
+    padding: 10px;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    width: 70px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    cursor: pointer;
+}
+
+.itens {
+    display: flex;
+    align-items: center;
+
+    gap: 2rem;
+    flex-direction: row;
+    margin-left: 1rem;
+}
+
+.itens ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 2rem;
+    text-transform: uppercase;
+    font-family: "Mukta", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.social i {
+    font-size: 1rem;
+}
+
+.social {
+    opacity: 0.60;
+}
+
+.social:hover {
+    opacity: 100%;
+    border-bottom: 1px solid white;
+    transition: all 0.4s;
+}
