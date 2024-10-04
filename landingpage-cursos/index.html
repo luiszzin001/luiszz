@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Landing Page Cursos</title>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="efeito.js" defer></script>
 </head>
 <body>
     <header>
@@ -15,7 +19,7 @@
         <nav>
             <ul>
                 <li><a href="#">Quem somos</a></li>
-                <li><a href="#">Cursos</a></li>
+                <li><a href="#cursos">Cursos</a></li>
                 <li><a href="#">Conteúdos</a></li>
                 <li><a href="#">Área do Cliente</a></li>                
            </ul>
@@ -29,11 +33,11 @@
         <section class="hero">
             <article class="conteiner">
 
-                <div class="girl-img">
+                <div class="girl-img img-topo">
                     <img src="assets/images/Girl-img-principal.png">
                 </div>
 
-                <div class="texts">
+                <div class="texts txt-topo">
                     <h1>Plataforma de Aprendizado e <br>
                         Comercialização de Cursos</h1>
                     <h3>Mais de <span class="number-text">1.200</span> cursos para você vender.</h3>
@@ -45,6 +49,36 @@
                 </div>
 
             </article>
+        </section>
+
+        <section class="about" id="cursos">
+            <div class="text-about">
+                <h2 class="titulo">Plataforma Versátil</h2>
+            </div>
+
+            <aside class="cards">
+                <div class="card card-effect1">
+                    <img src="assets/images/image.png">
+
+                    <h3>Site com a sua marca</h3>
+                    <p>Personalize seu site e comece <br>
+                        a vender agora</p>
+                </div>
+
+                <div class="card card-effect2">
+                    <img src="assets/images/image (1).png">
+
+                    <h3>Transferência Rápida</h3>
+                    <p>Integre com Mercado Pago, <br> PayPal ou PagSeguro</p>
+                </div>
+
+                <div class="card card-effect3">
+                    <img src="assets/images/image (2).png">
+
+                    <h3>Disponibilize seus cursos</h3>
+                    <p class="card3">Produza seu conteúdo e <br> organize tudo em um único <br>  espaço</p>
+                </div>
+            </aside>
         </section>
     </main>
 </body>
