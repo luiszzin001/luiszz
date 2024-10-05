@@ -67,7 +67,7 @@ nav a::after {
     position: absolute;
     bottom: 0;
     left: 0;
-    transition: 0.4s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 nav a:hover::after {
@@ -180,7 +180,6 @@ main {
 
     width: 100vw;
     height: 100vh;
-    margin-left: 3rem;
 }
 
 .about h2 {
@@ -199,21 +198,20 @@ main {
     justify-content: center;
     align-items: center;
 
-    gap: 1rem;
+    gap: 3rem;
 }
 
 
-
 .card {
-    width: 350px;
-    height: 560px;
+    width: 300px;
+    height: 500px;
 
     border-radius: 10px;
     background: rgba(32, 38, 50, 0.50);
     box-shadow: 20px 30px 60px 0px #201E19;
 }
 .card img {
-    width: 350px;
+    width: 300px;
 }
 
 .card h3 {
@@ -246,4 +244,30 @@ main {
         margin-right: 5rem;
     }
 
+}
+
+/* Reponsividade */
+
+@media (max-width: 360px) {
+    .conteiner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .girl-img img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 300px;
+
+        margin: auto;
+        margin-top: 15rem;
+
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
 }

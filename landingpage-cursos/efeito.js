@@ -1,42 +1,38 @@
 window.revelar = ScrollReveal({reset:true})
-// Topo do site
 
-revelar.reveal('.img-topo',{
+revelar.reveal('.img-topo', {
     duration: 2000,
-    distance: '200px',
-    origin: 'left'
+    distance: '90px',
+    origin: 'left',
+    delay: 200
 })
 
-revelar.reveal('.txt-topo',{
+revelar.reveal('.txt-topo', {
     duration: 2000,
-    distance: '120px',
-    delay: 500,
-    origin: 'right'
+    distance: '90px',
+    origin: 'right',
+    delay: 200
 })
 
-// Titulos
-
-revelar.reveal('.titulo',{
-    duration: 3000,
+revelar.reveal('.titulo', {
+    duration: 2000,
     distance: '50px',
 })
 
-// Cards
-
-revelar.reveal('.card-effect1',{
+revelar.reveal('.card-effect1', {
     duration: 2000,
     distance: '90px',
     delay: 500
 })
 
-revelar.reveal('.card-effect2',{
+revelar.reveal('.card-effect2', {
     duration: 2000,
     distance: '90px',
     delay: 1000
 })
 
-revelar.reveal('.card-effect3',{
+revelar.reveal('.card-effect3', {
     duration: 2000,
     distance: '90px',
-    delay: 1300
+    delay: 1500
 })
